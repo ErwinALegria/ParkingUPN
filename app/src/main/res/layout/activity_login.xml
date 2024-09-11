@@ -18,9 +18,9 @@
         android:src="@drawable/logo_upn"
         />
     <TextView
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Usuario:"
+        android:text="Ingrese sus datos:"
         android:textColor="@color/white"
         android:fontFamily="@font/nunito_regular"
         android:layout_marginLeft="25dp"
@@ -73,8 +73,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="15sp"
-            android:text="olvidecontraseña"
+            android:text="Olvidé mi contraseña"
             android:textColor="@color/black"
+            android:textColorLink="@color/black"
             android:fontFamily="@font/nunito_regular"
             android:layout_marginRight="25dp" />
 
